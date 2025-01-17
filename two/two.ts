@@ -1,8 +1,8 @@
 // Extending Interface
-const obj  = {
-    name: "naman",
-    sirname: "rai"
-}
+// const obj  = {
+//     name: "naman",
+//     sirname: "rai"
+// }
 // interface User {
 //     name: string,
 //     id: number,
@@ -51,6 +51,19 @@ const obj  = {
 //  type admin = user & {
 //     getDetails()
 //  }
+
+//Intersection Types
+type User = {
+    name: string,
+    roll: number,
+}
+type Admin = User & {
+    getDetails(User: string): void
+}
+function abcd(a:Admin) {
+    a.name
+    a.getDetails
+}
 
 
 
