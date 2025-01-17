@@ -1,3 +1,4 @@
+"use strict";
 // Extending Interface
 // const obj  = {
 //     name: "naman",
@@ -9,5 +10,6 @@
 //     salary: number 
 // }
 function abcd(a) {
-    a;
+    a.name;
+    a.getDetails;
 }
