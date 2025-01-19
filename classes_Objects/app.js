@@ -32,12 +32,42 @@
 //     constructor(public name: string, public age: number){}
 // }
 // let h1 = new humanMaker("naman",22)
-class family {
-    constructor(name, members) {
-        this.name = name;
-        this.members = members;
-    }
-}
-let fam = new family("naman", 2);
-fam.name = "neha";
+// class family{
+//     constructor(public name:string, public members:number){
+//     }
+// }
+// let fam = new family("naman",2)
+// fam.name = "neha" 
 // let fam1  = new family("neha",22)
+// class names{
+//      name = "naman"
+//     changeName(){
+//         this.name
+//     }
+// }
+// class BootleMake{
+//     public name;
+//     constructor(names: string){
+//         this.name = name;    // second approch
+//     }
+// }
+// let b1 = new BootleMake("naman")
+// class BootleMake{
+//     constructor(public name: string){ // first approch
+//     }
+// }
+// let b1 = new BootleMake("naman")
+// Access Modifier
+// class BottleMaker{
+//     constructor(public name: string){}
+// }
+// let b1 = new BottleMaker("Milton")
+// // let b2 = b1.name = "hehehoho"
+//readOnly
+// class user{
+//     constructor(public readonly name: string){}
+//     changeName(){
+//         this.name = "neha"
+//     }
+// }
+// let u1 = new user("naman")
