@@ -37,7 +37,7 @@
 //     }
 // }
 // let fam = new family("naman",2)
-// fam.name = "neha" 
+// fam.name = "neha"
 // let fam1  = new family("neha",22)
 // class names{
 //      name = "naman"
@@ -65,9 +65,66 @@
 // // let b2 = b1.name = "hehehoho"
 //readOnly
 // class user{
-//     constructor(public readonly name: string){}
+//     constructor(public readonly name: string){}// cannot change name
 //     changeName(){
 //         this.name = "neha"
 //     }
 // }
 // let u1 = new user("naman")
+//Optinal properties
+// class Users{
+//     constructor(public name:string,public age?:number){}// ?- its okay to not put any val
+// }
+// let u1 = new Users("naman",12)
+// let u2 = new Users("naman")
+//normal properties...
+// class Users {
+//   public name;
+//   public age;
+//   constructor(name: string, age: number) {
+//     this.name = name;
+//     this.age = age;
+//   }
+// }
+//parameters properties...
+// class Users {
+//   constructor(public name: string, public age: number) {}
+// }
+// let u1 = new Users("naman", 22);
+//Getter And setters..
+// class User{
+//     constructor(public _name:string, public _age:number){}
+//     get name(){
+//         return this._name // getters
+//     }
+//     set name(val:string){
+//         this._name  = val
+//     }
+// }
+// let u1 = new User("naman",22)
+// let u2 = u1._name
+// let u3 = u1.name = "neha"
+// -------------****************-----
+// static
+// class Naman{
+//     version = 1.2
+// }
+// let v1 = new Naman.version
+// class Naman{
+//    static version = 1.2
+// }
+// let v1 = Naman.version
+// class names{
+//     static getName(){
+//         return Math.PI
+//     }
+// }
+// let n1=  names.getName()
+//************************** */
+// Abstract Classes
+class cooking {
+    constructor(gas, name) {
+        this.gas = gas;
+        this.name = name;
+    }
+}
