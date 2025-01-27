@@ -42,3 +42,13 @@
 // let arr: number = [1,2,3,4]
 // let arr2: number = [...arr]
 // console.log(arr2);
+//Function Overloading....
+// function abcd(a:string):void
+// function abcd(a:string,b:number):number
+// function abcd(a:any,b?: any){
+//     if (typeof a === "string" && typeof b === undefined) {console.log("hey");}
+//     if(typeof b ==="string" && typeof b === "number"){return 123}
+//     else{console.log("ERROR");}
+// }
+// abcd("naman")
+// abcd("hey",22)
